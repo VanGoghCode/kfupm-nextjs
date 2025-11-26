@@ -1,0 +1,21 @@
+import urbanHeatData from "@/public/data/urban_heat_data.json";
+import heatMitigationData from "@/public/data/heat_mitigation_engine.json";
+import waterSustainabilityData from "@/public/data/water_sustainability_data.json";
+import economicImpactData from "@/public/data/economic_impact_data.json";
+import environmentalData from "@/public/data/environmental_biodiversity_data.json";
+import heatRiskMap from "@/public/data/heat_risk_map.json";
+import impactMapLayers from "@/public/data/impact_map_layers.json";
+import socialHealthData from "@/public/data/social_health_data.json";
+import governanceData from "@/public/data/governance_data.json";
+import digitalTwinData from "@/public/data/digital_twin_data.json";
+
+export const getUrbanHeatData = () => urbanHeatData;
+export const getHeatRiskMap = () => heatRiskMap;
+export const getHeatMitigationData = () => heatMitigationData;
+export const getImpactMapLayers = () => impactMapLayers;
+export const getWaterSustainabilityData = () => waterSustainabilityData;
+export const getEconomicImpactData = () => economicImpactData;
+export const getEnvironmentalData = () => environmentalData;
+export const getSocialHealthData = () => socialHealthData;
+export const getGovernanceData = () => governanceData;
+export const getDigitalTwinData = () => digitalTwinData;

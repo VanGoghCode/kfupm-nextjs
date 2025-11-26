@@ -1,0 +1,105 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-25",
+        "description": "Environmental & Biodiversity Dashboard dataset.",
+        "sources": [
+            "Geospatial AI for Urban Heat Resilience (PDF)",
+            "City Biodiversity Index (CBI) / Singapore Index",
+            "Research on Arid Climate Soil Carbon (23-56% increase)",
+            "PM2.5 Interception Studies (Negev, Israel)"
+        ]
+    },
+    "carbon_calculator": {
+        "sequestration_rate_kg_co2_year_per_tree": {
+            "min": 15,
+            "max": 25,
+            "avg": 20,
+            "note": "Based on mature arid-adapted species like Prosopis and Acacia."
+        },
+        "soil_organic_carbon_improvement": {
+            "percentage_increase": {
+                "min": 30,
+                "max": 50,
+                "avg": 40
+            },
+            "description": "Increase in Soil Organic Carbon (SOC) in arid urban forests compared to bare land."
+        }
+    },
+    "biodiversity_metrics": {
+        "indices": {
+            "name": "City Biodiversity Index (CBI)",
+            "components": [
+                {
+                    "category": "Native Biodiversity",
+                    "indicators": [
+                        "Native species count",
+                        "Net change in species",
+                        "Key indicator species (birds, butterflies)"
+                    ]
+                },
+                {
+                    "category": "Ecosystem Services",
+                    "indicators": [
+                        "Regulation of water quantity",
+                        "Climate regulation (Carbon storage)",
+                        "Recreational services"
+                    ]
+                },
+                {
+                    "category": "Governance & Management",
+                    "indicators": [
+                        "Budget for biodiversity",
+                        "Institutional capacity",
+                        "Inter-agency cooperation"
+                    ]
+                }
+            ]
+        },
+        "wildlife_corridors": {
+            "design_metrics": {
+                "min_width_m": 40,
+                "optimal_width_m": 100,
+                "connectivity_score_target": 0.8
+            },
+            "examples": [
+                "Singapore Park Connector Network",
+                "Banff Wildlife Crossings",
+                "Oslo Bee Highway"
+            ]
+        }
+    },
+    "pm25_interception": {
+        "rate_kg_m2_canopy_year": 0.013,
+        "description": "Estimated particulate matter removal based on semi-arid forest studies (approx. 13 tons/km2/year).",
+        "species_efficiency": {
+            "Prosopis cineraria": "High (Rough leaf surface)",
+            "Acacia tortilis": "Moderate",
+            "Ficus nitida": "High (Dense canopy)"
+        }
+    },
+    "species_risk_assessment": {
+        "monoculture_risk": {
+            "threshold_percent": 10,
+            "warning_message": "Single species exceeds 10% of total population. High risk of pest/disease outbreak."
+        },
+        "resilience_ratings": [
+            {
+                "species": "Prosopis cineraria",
+                "resilience": "Very High",
+                "pollinator_support": "High (Bees, Butterflies)"
+            },
+            {
+                "species": "Acacia tortilis",
+                "resilience": "Very High",
+                "pollinator_support": "High"
+            },
+            {
+                "species": "Conocarpus lancifolius",
+                "resilience": "Moderate",
+                "pollinator_support": "Low",
+                "risk_note": "High water consumer, invasive roots."
+            }
+        ]
+    }
+}

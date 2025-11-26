@@ -1,0 +1,84 @@
+{
+    "policy_readiness_index": [
+        {
+            "city": "Riyadh",
+            "score": 85,
+            "initiatives": [
+                "Saudi Green Initiative",
+                "Green Riyadh",
+                "SBC 1001"
+            ],
+            "description": "Strong mandates for water reuse (100% by 2025) and massive afforestation projects."
+        },
+        {
+            "city": "Dubai",
+            "score": 88,
+            "initiatives": [
+                "Dubai Green Fund",
+                "Clean Energy Strategy 2050"
+            ],
+            "description": "Established green finance mechanisms and strict green building regulations."
+        },
+        {
+            "city": "Cairo",
+            "score": 65,
+            "initiatives": [
+                "National Climate Strategy 2050"
+            ],
+            "description": "Developing framework, focusing on adaptation and water security."
+        }
+    ],
+    "city_comparison": [
+        {
+            "category": "TSE Mandates",
+            "riyadh": "100% Reuse Target (2025)",
+            "dubai": "98% Reuse Achieved",
+            "cairo": "Partial (Agri-focus)"
+        },
+        {
+            "category": "Green Building Code",
+            "riyadh": "Mostadam (Mandatory)",
+            "dubai": "Al Safat (Mandatory)",
+            "cairo": "Green Pyramid (Voluntary)"
+        },
+        {
+            "category": "Green Finance",
+            "riyadh": "PIF Green Bonds",
+            "dubai": "Dubai Green Fund ($27B)",
+            "cairo": "Sovereign Green Bonds"
+        },
+        {
+            "category": "Urban Cooling",
+            "riyadh": "7.5M Trees (Green Riyadh)",
+            "dubai": "60% Green Cover Goal",
+            "cairo": "100M Trees Initiative"
+        }
+    ],
+    "policy_roadmap": [
+        {
+            "year": 2021,
+            "milestone": "Saudi Green Initiative Launched",
+            "status": "Completed"
+        },
+        {
+            "year": 2023,
+            "milestone": "Mostadam Code Enforcement",
+            "status": "Completed"
+        },
+        {
+            "year": 2025,
+            "milestone": "100% Urban Wastewater Reuse (KSA)",
+            "status": "Target"
+        },
+        {
+            "year": 2030,
+            "milestone": "Riyadh: 7.5 Million Trees Planted",
+            "status": "Target"
+        },
+        {
+            "year": 2050,
+            "milestone": "Net Zero Emissions (UAE/KSA)",
+            "status": "Target"
+        }
+    ]
+}

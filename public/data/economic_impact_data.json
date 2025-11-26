@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-25",
+        "description": "Economic Impact Simulator dataset.",
+        "sources": [
+            "PlantWise-AI ROI Model",
+            "GlobalPetrolPrices (Electricity)",
+            "ILO/World Bank (Wages)",
+            "EPA Social Cost of Carbon 2024"
+        ]
+    },
+    "roi_model_base": {
+        "currency": "USD",
+        "capex_per_tree": 450,
+        "opex_40_years": 600,
+        "total_cost": 1050,
+        "benefits": {
+            "energy_savings": 800,
+            "carbon_avoidance": 150,
+            "health_vsl_share": 1200,
+            "productivity_gain": 1500
+        },
+        "total_benefits": 3650,
+        "npv": 2800,
+        "roi_ratio": 3.6
+    },
+    "city_economic_factors": {
+        "riyadh_sa": {
+            "electricity_rate_usd_kwh": 0.06,
+            "avg_monthly_labor_wage_usd": 1100,
+            "scc_usd_ton": 208
+        },
+        "dubai_ae": {
+            "electricity_rate_usd_kwh": 0.08,
+            "avg_monthly_labor_wage_usd": 4000,
+            "scc_usd_ton": 208
+        },
+        "cairo_eg": {
+            "electricity_rate_usd_kwh": 0.04,
+            "avg_monthly_labor_wage_usd": 280,
+            "scc_usd_ton": 208
+        },
+        "phoenix_us": {
+            "electricity_rate_usd_kwh": 0.15,
+            "avg_monthly_labor_wage_usd": 5600,
+            "scc_usd_ton": 208
+        },
+        "karachi_pk": {
+            "electricity_rate_usd_kwh": 0.18,
+            "avg_monthly_labor_wage_usd": 200,
+            "scc_usd_ton": 208
+        }
+    },
+    "national_projections": {
+        "scenarios": [
+            {
+                "name": "Baseline",
+                "description": "Current urban forestry practices",
+                "total_investment_usd_bn": 1.2,
+                "net_economic_benefit_usd_bn": 1.5,
+                "roi": 1.25
+            },
+            {
+                "name": "Moderate",
+                "description": "Improved species selection and irrigation",
+                "total_investment_usd_bn": 2.5,
+                "net_economic_benefit_usd_bn": 5.8,
+                "roi": 2.32
+            },
+            {
+                "name": "PlantWise-AI",
+                "description": "AI-optimized placement and native species",
+                "total_investment_usd_bn": 3.5,
+                "net_economic_benefit_usd_bn": 12.6,
+                "roi": 3.6
+            }
+        ]
+    }
+}

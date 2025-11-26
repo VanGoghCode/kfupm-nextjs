@@ -1,0 +1,79 @@
+{
+    "mortality_model": {
+        "lives_saved_per_10m_people": 1000,
+        "vsl_usd_million": 1.5,
+        "description": "Based on research estimating 1,000 lives saved per 10 million people through comprehensive urban heat mitigation."
+    },
+    "city_health_metrics": [
+        {
+            "city_id": "riyadh",
+            "name": "Riyadh",
+            "population_millions": 7.5,
+            "asthma_hospitalizations_per_100k": {
+                "current": 120,
+                "projected_with_greening": 95
+            },
+            "heatwave_mortality_annual": {
+                "current": 450,
+                "projected_with_greening": 320
+            },
+            "thermal_inequity_index": {
+                "current": 0.45,
+                "projected": 0.30,
+                "description": "Gini coefficient-like measure of temperature disparity between wealthy and vulnerable neighborhoods."
+            }
+        },
+        {
+            "city_id": "dubai",
+            "name": "Dubai",
+            "population_millions": 3.5,
+            "asthma_hospitalizations_per_100k": {
+                "current": 110,
+                "projected_with_greening": 90
+            },
+            "heatwave_mortality_annual": {
+                "current": 200,
+                "projected_with_greening": 150
+            },
+            "thermal_inequity_index": {
+                "current": 0.38,
+                "projected": 0.28
+            }
+        }
+    ],
+    "heat_refuges": [
+        {
+            "id": "refuge-1",
+            "name": "King Salman Park",
+            "type": "Park",
+            "city": "Riyadh",
+            "coordinates": {
+                "lat": 24.74,
+                "lng": 46.72
+            },
+            "capacity": 50000
+        },
+        {
+            "id": "refuge-2",
+            "name": "Wadi Hanifa Cooling Corridor",
+            "type": "Cooling Corridor",
+            "city": "Riyadh",
+            "coordinates": {
+                "lat": 24.60,
+                "lng": 46.65
+            },
+            "capacity": 20000
+        },
+        {
+            "id": "refuge-3",
+            "name": "Safa Park",
+            "type": "Park",
+            "city": "Dubai",
+            "coordinates": {
+                "lat": 25.18,
+                "lng": 55.23
+            },
+            "capacity": 15000
+        }
+    ]
+}

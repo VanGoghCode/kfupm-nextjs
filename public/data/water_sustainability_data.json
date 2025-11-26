@@ -1,0 +1,96 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-25",
+        "description": "Water Sustainability & TSE Analytics dataset.",
+        "sources": [
+            "City Utility Reports (Dubai, Riyadh, Cairo, Phoenix, Karachi)",
+            "Academic Research on Arid Climate Irrigation",
+            "Plantwise Water Model"
+        ]
+    },
+    "water_budgets": [
+        {
+            "city_id": "riyadh_sa",
+            "name": "Riyadh",
+            "population_2025": 7500000,
+            "wastewater_generated_m3_day": 1200000,
+            "tse_production_m3_day": 800000,
+            "tse_utilization_rate": 0.65,
+            "target_tse_utilization_rate": 0.90,
+            "water_gap_m3_day": -400000
+        },
+        {
+            "city_id": "dubai_ae",
+            "name": "Dubai",
+            "population_2025": 3500000,
+            "wastewater_generated_m3_day": 1000000,
+            "tse_production_m3_day": 950000,
+            "tse_utilization_rate": 0.85,
+            "target_tse_utilization_rate": 0.95,
+            "water_gap_m3_day": -50000
+        },
+        {
+            "city_id": "cairo_eg",
+            "name": "Cairo",
+            "population_2025": 22000000,
+            "wastewater_generated_m3_day": 4800000,
+            "tse_production_m3_day": 4100000,
+            "tse_utilization_rate": 0.70,
+            "target_tse_utilization_rate": 0.85,
+            "water_gap_m3_day": -700000
+        },
+        {
+            "city_id": "phoenix_us",
+            "name": "Phoenix",
+            "population_2025": 1700000,
+            "wastewater_generated_m3_day": 691000,
+            "tse_production_m3_day": 670000,
+            "tse_utilization_rate": 0.97,
+            "target_tse_utilization_rate": 0.99,
+            "water_gap_m3_day": -21000
+        },
+        {
+            "city_id": "karachi_pk",
+            "name": "Karachi",
+            "population_2025": 17000000,
+            "wastewater_generated_m3_day": 1800000,
+            "tse_production_m3_day": 350000,
+            "tse_utilization_rate": 0.19,
+            "target_tse_utilization_rate": 0.50,
+            "water_gap_m3_day": -1450000
+        }
+    ],
+    "irrigation_simulation": {
+        "scenarios": {
+            "native_species": {
+                "species_example": "Acacia tortilis",
+                "water_use_l_day": 8,
+                "description": "Low water requirement, highly sustainable."
+            },
+            "exotic_species": {
+                "species_example": "Ficus nitida",
+                "water_use_l_day": 60,
+                "description": "High water requirement, risk of 'Water Trap'."
+            }
+        },
+        "risk_alerts": [
+            {
+                "level": "Critical",
+                "condition": "Exotic species > 30% of canopy",
+                "message": "WATER TRAP WARNING: Projected water demand exceeds TSE supply by 2030."
+            },
+            {
+                "level": "Moderate",
+                "condition": "TSE Utilization < 50%",
+                "message": "EFFICIENCY ALERT: Significant TSE resource wastage detected."
+            }
+        ],
+        "iot_logic": {
+            "moisture_threshold_min": 15,
+            "moisture_threshold_max": 40,
+            "irrigation_trigger": "Soil Moisture < 18%",
+            "savings_potential": "30% vs Timer-based"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "layer": "high_priority_zones",
+                "score": 94.2,
+                "description": "Critical Heat/Mobility Nexus"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            46.6765,
+                            24.7145
+                        ],
+                        [
+                            46.6775,
+                            24.7145
+                        ],
+                        [
+                            46.6775,
+                            24.7155
+                        ],
+                        [
+                            46.6765,
+                            24.7155
+                        ],
+                        [
+                            46.6765,
+                            24.7145
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "layer": "tse_network",
+                "status": "Existing",
+                "capacity": "High"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        46.6740,
+                        24.7130
+                    ],
+                    [
+                        46.6760,
+                        24.7140
+                    ],
+                    [
+                        46.6780,
+                        24.7150
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "layer": "cooling_corridors",
+                "proposal": "Green Spine A",
+                "target_temp_reduction": "4°C"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        46.6750,
+                        24.7135
+                    ],
+                    [
+                        46.6770,
+                        24.7155
+                    ]
+                ]
+            }
+        }
+    ]
+}

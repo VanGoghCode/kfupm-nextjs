@@ -1,0 +1,76 @@
+{
+    "scenarios": {
+        "baseline": {
+            "name": "Current Baseline",
+            "description": "Existing urban form with minimal vegetation.",
+            "avg_mrt": 65,
+            "shade_coverage_pct": 12
+        },
+        "PlantWise": {
+            "name": "PlantWise-AI Proposed",
+            "description": "Optimized green corridors and canopy cover.",
+            "avg_mrt": 48,
+            "shade_coverage_pct": 35
+        }
+    },
+    "shade_polygons": [
+        {
+            "id": "shade_1",
+            "paths": [
+                {
+                    "lat": 24.7130,
+                    "lng": 46.6750
+                },
+                {
+                    "lat": 24.7140,
+                    "lng": 46.6750
+                },
+                {
+                    "lat": 24.7140,
+                    "lng": 46.6760
+                },
+                {
+                    "lat": 24.7130,
+                    "lng": 46.6760
+                }
+            ],
+            "type": "proposed",
+            "opacity": 0.4
+        },
+        {
+            "id": "shade_2",
+            "paths": [
+                {
+                    "lat": 24.7150,
+                    "lng": 46.6770
+                },
+                {
+                    "lat": 24.7160,
+                    "lng": 46.6770
+                },
+                {
+                    "lat": 24.7160,
+                    "lng": 46.6780
+                },
+                {
+                    "lat": 24.7150,
+                    "lng": 46.6780
+                }
+            ],
+            "type": "proposed",
+            "opacity": 0.4
+        }
+    ],
+    "mrt_heatmap_points": [
+        {
+            "lat": 24.7135,
+            "lng": 46.6755,
+            "weight": 10
+        },
+        {
+            "lat": 24.7155,
+            "lng": 46.6775,
+            "weight": 10
+        }
+    ]
+}

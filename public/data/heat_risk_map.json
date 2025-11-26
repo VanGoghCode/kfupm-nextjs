@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Riyadh",
+                "risk_level": "Extreme",
+                "uhi_intensity": "High",
+                "description": "Severe UHI effect with MRT reaching 72°C on unshaded surfaces."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.6753,
+                    24.7136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dubai",
+                "risk_level": "High",
+                "uhi_intensity": "High",
+                "description": "High humidity exacerbates heat stress, WBGT frequently exceeds thresholds."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.2708,
+                    25.2048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kuwait City",
+                "risk_level": "Critical",
+                "uhi_intensity": "Extreme",
+                "description": "One of the hottest inhabited places, MRT can exceed 75°C."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.9774,
+                    29.3759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cairo",
+                "risk_level": "High",
+                "uhi_intensity": "Moderate-High",
+                "description": "Dense urban fabric contributes to significant nighttime heat retention."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.2357,
+                    30.0444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Phoenix",
+                "risk_level": "High",
+                "uhi_intensity": "High",
+                "description": "Rapid urbanization increasing UHI, significant cooling needs."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0740,
+                    33.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Karachi",
+                "risk_level": "Moderate-High",
+                "uhi_intensity": "Moderate",
+                "description": "Coastal influence mitigates some heat but humidity is a major factor."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.0011,
+                    24.8607
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Doha",
+                "risk_level": "Extreme",
+                "uhi_intensity": "High",
+                "description": "Intense solar radiation and high humidity create dangerous WBGT levels."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.5310,
+                    25.2854
+                ]
+            }
+        }
+    ]
+}

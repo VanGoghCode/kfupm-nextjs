@@ -1,0 +1,119 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-25",
+        "description": "Heat Mitigation Engine dataset implementing PlantWise-AI Priority Score model.",
+        "sources": [
+            "PlantWise-AI Priority Score Model",
+            "Global Solar Atlas",
+            "Google Popular Times",
+            "UN Habitat Social Vulnerability Indicators"
+        ]
+    },
+    "model_config": {
+        "formula": "S = w1(H_solar) + w2(M_pedestrian) + w3(I_TSE) + w4(V_social)",
+        "weights": {
+            "w1_solar_heat_load": 0.35,
+            "w2_pedestrian_mobility": 0.25,
+            "w3_tse_availability": 0.20,
+            "w4_social_vulnerability": 0.20
+        },
+        "thresholds": {
+            "high_priority_score": 80,
+            "medium_priority_score": 50
+        }
+    },
+    "grid_data": [
+        {
+            "cell_id": "grid_001",
+            "coordinates": {
+                "lat": 24.7136,
+                "lon": 46.6753
+            },
+            "inputs": {
+                "solar_kwh_m2_yr": 2200,
+                "mobility_score": 85,
+                "tse_distance_m": 50,
+                "social_vulnerability_index": 0.75
+            },
+            "outputs": {
+                "priority_score": 88.5,
+                "potential_mrt_reduction_c": 18,
+                "potential_wbgt_reduction_c": 3.2,
+                "surface_cooling_c": 22
+            }
+        },
+        {
+            "cell_id": "grid_002",
+            "coordinates": {
+                "lat": 24.7140,
+                "lon": 46.6760
+            },
+            "inputs": {
+                "solar_kwh_m2_yr": 1800,
+                "mobility_score": 40,
+                "tse_distance_m": 200,
+                "social_vulnerability_index": 0.4
+            },
+            "outputs": {
+                "priority_score": 45.0,
+                "potential_mrt_reduction_c": 15,
+                "potential_wbgt_reduction_c": 2.5,
+                "surface_cooling_c": 20
+            }
+        },
+        {
+            "cell_id": "grid_003",
+            "coordinates": {
+                "lat": 24.7150,
+                "lon": 46.6770
+            },
+            "inputs": {
+                "solar_kwh_m2_yr": 2400,
+                "mobility_score": 90,
+                "tse_distance_m": 20,
+                "social_vulnerability_index": 0.9
+            },
+            "outputs": {
+                "priority_score": 94.2,
+                "potential_mrt_reduction_c": 20,
+                "potential_wbgt_reduction_c": 4.0,
+                "surface_cooling_c": 25
+            }
+        }
+    ],
+    "species_matrix": [
+        {
+            "name": "Prosopis cineraria (Ghaf)",
+            "type": "Native",
+            "lai_value": 2.5,
+            "water_needs_l_day": 8,
+            "cooling_potential": "High",
+            "shade_quality": "Dappled"
+        },
+        {
+            "name": "Acacia tortilis",
+            "type": "Native",
+            "lai_value": 1.8,
+            "water_needs_l_day": 6,
+            "cooling_potential": "Moderate",
+            "shade_quality": "Light"
+        },
+        {
+            "name": "Ficus nitida",
+            "type": "Exotic",
+            "lai_value": 4.5,
+            "water_needs_l_day": 60,
+            "cooling_potential": "Very High",
+            "shade_quality": "Dense"
+        },
+        {
+            "name": "Azadirachta indica (Neem)",
+            "type": "Adaptive",
+            "lai_value": 3.0,
+            "water_needs_l_day": 25,
+            "cooling_potential": "High",
+            "shade_quality": "Moderate"
+        }
+    ]
+}

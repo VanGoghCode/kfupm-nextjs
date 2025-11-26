@@ -1,0 +1,2019 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "last_updated": "2025-11-25",
+        "description": "Global Urban Heat Intelligence dataset for Plantwise dashboard.",
+        "sources": [
+            "Geospatial AI for Urban Heat Resilience (PDF)",
+            "NASA Global Urban Heat Island Dataset",
+            "NOAA Urban Heat Island Mapping Campaign",
+            "ILO Heat Stress Reports",
+            "UN World Urbanization Prospects 2018/2025"
+        ]
+    },
+    "global_metrics": {
+        "total_projected_population_2050_target_cities": 350000000,
+        "average_uhi_intensity_c": 14.5,
+        "critical_wbgt_threshold_c": 32.1
+    },
+    "cities": [
+        {
+            "id": "riyadh_sa",
+            "name": "Riyadh",
+            "country": "Saudi Arabia",
+            "coordinates": {
+                "lat": 24.7136,
+                "lon": 46.6753
+            },
+            "climate_type": "BWh",
+            "current_population": 7500000,
+            "projected_population_2050": 15000000,
+            "uhi_data": {
+                "intensification_c_min": 12,
+                "intensification_c_max": 22,
+                "seasonal_peak": "July"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 72,
+                "shaded_c": 45
+            },
+            "wbgt_data": {
+                "threshold_c": 31,
+                "productivity_loss_potential_percent": 65
+            },
+            "risk_score": 92,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 33
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 35
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 34
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 31
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 24
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 17
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 13
+                }
+            ]
+        },
+        {
+            "id": "kuwait_kw",
+            "name": "Kuwait City",
+            "country": "Kuwait",
+            "coordinates": {
+                "lat": 29.3759,
+                "lon": 47.9774
+            },
+            "climate_type": "BWh",
+            "current_population": 3100000,
+            "projected_population_2050": 5500000,
+            "uhi_data": {
+                "intensification_c_min": 14,
+                "intensification_c_max": 25,
+                "seasonal_peak": "July"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 75,
+                "shaded_c": 48
+            },
+            "wbgt_data": {
+                "threshold_c": 33,
+                "productivity_loss_potential_percent": 80
+            },
+            "risk_score": 98,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 13
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 15
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 20
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 26
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 32
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 37
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 39
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 38
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 34
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 28
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 20
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 14
+                }
+            ]
+        },
+        {
+            "id": "karachi_pk",
+            "name": "Karachi",
+            "country": "Pakistan",
+            "coordinates": {
+                "lat": 24.8607,
+                "lon": 67.0011
+            },
+            "climate_type": "BWh",
+            "current_population": 17000000,
+            "projected_population_2050": 25000000,
+            "uhi_data": {
+                "intensification_c_min": 9,
+                "intensification_c_max": 16,
+                "seasonal_peak": "June"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 62,
+                "shaded_c": 38
+            },
+            "wbgt_data": {
+                "threshold_c": 31,
+                "productivity_loss_potential_percent": 50
+            },
+            "risk_score": 82,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 21
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 25
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 29
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 31
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 32
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 31
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 30
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 30
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 29
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 25
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 21
+                }
+            ]
+        },
+        {
+            "id": "doha_qa",
+            "name": "Doha",
+            "country": "Qatar",
+            "coordinates": {
+                "lat": 25.2854,
+                "lon": 51.5310
+            },
+            "climate_type": "BWh",
+            "current_population": 2400000,
+            "projected_population_2050": 4000000,
+            "uhi_data": {
+                "intensification_c_min": 11,
+                "intensification_c_max": 19,
+                "seasonal_peak": "July"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 70,
+                "shaded_c": 43
+            },
+            "wbgt_data": {
+                "threshold_c": 32,
+                "productivity_loss_potential_percent": 75
+            },
+            "risk_score": 91,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 17
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 22
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 27
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 32
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 35
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 36
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 36
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 33
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 29
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 24
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 19
+                }
+            ]
+        },
+        {
+            "id": "new_delhi_in",
+            "name": "New Delhi",
+            "country": "India",
+            "coordinates": {
+                "lat": 28.6139,
+                "lon": 77.2090
+            },
+            "climate_type": "Cwa",
+            "current_population": 32000000,
+            "projected_population_2050": 45000000,
+            "uhi_data": {
+                "intensification_c_min": 10,
+                "intensification_c_max": 18,
+                "seasonal_peak": "May"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 68,
+                "shaded_c": 42
+            },
+            "wbgt_data": {
+                "threshold_c": 32,
+                "productivity_loss_potential_percent": 75
+            },
+            "risk_score": 95,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 14
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 24
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 31
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 34
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 34
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 31
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 30
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 29
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 26
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 20
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 15
+                }
+            ]
+        },
+        {
+            "id": "madrid_es",
+            "name": "Madrid",
+            "country": "Spain",
+            "coordinates": {
+                "lat": 40.4168,
+                "lon": -3.7038
+            },
+            "climate_type": "Csa",
+            "current_population": 6700000,
+            "projected_population_2050": 7500000,
+            "uhi_data": {
+                "intensification_c_min": 6,
+                "intensification_c_max": 12,
+                "seasonal_peak": "July"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 58,
+                "shaded_c": 35
+            },
+            "wbgt_data": {
+                "threshold_c": 28,
+                "productivity_loss_potential_percent": 30
+            },
+            "risk_score": 72,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 6
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 8
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 11
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 13
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 17
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 22
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 26
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 25
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 21
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 15
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 10
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 7
+                }
+            ]
+        },
+        {
+            "id": "sydney_au",
+            "name": "Sydney",
+            "country": "Australia",
+            "coordinates": {
+                "lat": -33.8688,
+                "lon": 151.2093
+            },
+            "climate_type": "Cfa",
+            "current_population": 5300000,
+            "projected_population_2050": 7000000,
+            "uhi_data": {
+                "intensification_c_min": 5,
+                "intensification_c_max": 10,
+                "seasonal_peak": "January"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 55,
+                "shaded_c": 32
+            },
+            "wbgt_data": {
+                "threshold_c": 29,
+                "productivity_loss_potential_percent": 25
+            },
+            "risk_score": 68,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 23
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 23
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 22
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 16
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 14
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 13
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 14
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 16
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 20
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 22
+                }
+            ]
+        },
+        {
+            "id": "mexico_city_mx",
+            "name": "Mexico City",
+            "country": "Mexico",
+            "coordinates": {
+                "lat": 19.4326,
+                "lon": -99.1332
+            },
+            "climate_type": "Cwb",
+            "current_population": 22000000,
+            "projected_population_2050": 28000000,
+            "uhi_data": {
+                "intensification_c_min": 8,
+                "intensification_c_max": 14,
+                "seasonal_peak": "May"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 60,
+                "shaded_c": 38
+            },
+            "wbgt_data": {
+                "threshold_c": 28,
+                "productivity_loss_potential_percent": 40
+            },
+            "risk_score": 78,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 14
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 15
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 17
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 16
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 15
+                },
+                {
+                    "month": "Dec",
+                    "avg_temp_c": 14
+                }
+            ]
+        },
+        {
+            "id": "cape_town_za",
+            "name": "Cape Town",
+            "country": "South Africa",
+            "coordinates": {
+                "lat": -33.9249,
+                "lon": 18.4241
+            },
+            "climate_type": "Csb",
+            "current_population": 4800000,
+            "projected_population_2050": 6500000,
+            "uhi_data": {
+                "intensification_c_min": 6,
+                "intensification_c_max": 11,
+                "seasonal_peak": "February"
+            },
+            "mrt_data": {
+                "baseline_unshaded_c": 56,
+                "shaded_c": 34
+            },
+            "wbgt_data": {
+                "threshold_c": 29,
+                "productivity_loss_potential_percent": 35
+            },
+            "risk_score": 75,
+            "temperature_curve": [
+                {
+                    "month": "Jan",
+                    "avg_temp_c": 22
+                },
+                {
+                    "month": "Feb",
+                    "avg_temp_c": 22
+                },
+                {
+                    "month": "Mar",
+                    "avg_temp_c": 20
+                },
+                {
+                    "month": "Apr",
+                    "avg_temp_c": 18
+                },
+                {
+                    "month": "May",
+                    "avg_temp_c": 15
+                },
+                {
+                    "month": "Jun",
+                    "avg_temp_c": 13
+                },
+                {
+                    "month": "Jul",
+                    "avg_temp_c": 12
+                },
+                {
+                    "month": "Aug",
+                    "avg_temp_c": 13
+                },
+                {
+                    "month": "Sep",
+                    "avg_temp_c": 14
+                },
+                {
+                    "month": "Oct",
+                    "avg_temp_c": 17
+                },
+                {
+                    "month": "Nov",
+                    "avg_temp_c": 19
+                },
+                {
+                    "month": "Dec",
+                    "projected_population_2050": 4200000,
+                    "uhi_data": {
+                        "intensification_c_min": 5,
+                        "intensification_c_max": 9,
+                        "seasonal_peak": "August"
+                    },
+                    "mrt_data": {
+                        "baseline_unshaded_c": 52,
+                        "shaded_c": 30
+                    },
+                    "wbgt_data": {
+                        "threshold_c": 29,
+                        "productivity_loss_potential_percent": 20
+                    },
+                    "risk_score": 65,
+                    "temperature_curve": [
+                        {
+                            "month": "Jan",
+                            "avg_temp_c": 14
+                        },
+                        {
+                            "month": "Feb",
+                            "avg_temp_c": 15
+                        },
+                        {
+                            "month": "Mar",
+                            "avg_temp_c": 16
+                        },
+                        {
+                            "month": "Apr",
+                            "avg_temp_c": 18
+                        },
+                        {
+                            "month": "May",
+                            "avg_temp_c": 20
+                        },
+                        {
+                            "month": "Jun",
+                            "avg_temp_c": 22
+                        },
+                        {
+                            "month": "Jul",
+                            "avg_temp_c": 24
+                        },
+                        {
+                            "month": "Aug",
+                            "avg_temp_c": 25
+                        },
+                        {
+                            "month": "Sep",
+                            "avg_temp_c": 24
+                        },
+                        {
+                            "month": "Oct",
+                            "avg_temp_c": 21
+                        },
+                        {
+                            "month": "Nov",
+                            "avg_temp_c": 17
+                        },
+                        {
+                            "month": "Dec",
+                            "avg_temp_c": 14
+                        }
+                    ]
+                },
+                {
+                    "id": "new_york_us",
+                    "name": "New York",
+                    "country": "USA",
+                    "coordinates": {
+                        "lat": 40.7128,
+                        "lon": -74.0060
+                    },
+                    "climate_type": "Cfa",
+                    "current_population": 8400000,
+                    "projected_population_2050": 9000000,
+                    "uhi_data": {
+                        "intensification_c_min": 7,
+                        "intensification_c_max": 11,
+                        "seasonal_peak": "July"
+                    },
+                    "mrt_data": {
+                        "baseline_unshaded_c": 50,
+                        "shaded_c": 28
+                    },
+                    "wbgt_data": {
+                        "threshold_c": 28,
+                        "productivity_loss_potential_percent": 30
+                    },
+                    "risk_score": 70,
+                    "temperature_curve": [
+                        {
+                            "month": "Jan",
+                            "avg_temp_c": 2
+                        },
+                        {
+                            "month": "Feb",
+                            "avg_temp_c": 3
+                        },
+                        {
+                            "month": "Mar",
+                            "avg_temp_c": 7
+                        },
+                        {
+                            "month": "Apr",
+                            "avg_temp_c": 13
+                        },
+                        {
+                            "month": "May",
+                            "avg_temp_c": 18
+                        },
+                        {
+                            "month": "Jun",
+                            "avg_temp_c": 23
+                        },
+                        {
+                            "month": "Jul",
+                            "avg_temp_c": 26
+                        },
+                        {
+                            "month": "Aug",
+                            "avg_temp_c": 25
+                        },
+                        {
+                            "month": "Sep",
+                            "avg_temp_c": 21
+                        },
+                        {
+                            "month": "Oct",
+                            "avg_temp_c": 15
+                        },
+                        {
+                            "month": "Nov",
+                            "avg_temp_c": 10
+                        },
+                        {
+                            "month": "Dec",
+                            "avg_temp_c": 4
+                        }
+                    ]
+                },
+                {
+                    "id": "toronto_ca",
+                    "name": "Toronto",
+                    "country": "Canada",
+                    "coordinates": {
+                        "lat": 43.65107,
+                        "lon": -79.347015
+                    },
+                    "climate_type": "Dfb",
+                    "current_population": 2900000,
+                    "projected_population_2050": 3500000,
+                    "uhi_data": {
+                        "intensification_c_min": 4,
+                        "intensification_c_max": 8,
+                        "seasonal_peak": "July"
+                    },
+                    "mrt_data": {
+                        "baseline_unshaded_c": 45,
+                        "shaded_c": 25
+                    },
+                    "wbgt_data": {
+                        "threshold_c": 26,
+                        "productivity_loss_potential_percent": 15
+                    },
+                    "risk_score": 55,
+                    "temperature_curve": [
+                        {
+                            "month": "Jan",
+                            "avg_temp_c": -3
+                        },
+                        {
+                            "month": "Feb",
+                            "avg_temp_c": -2
+                        },
+                        {
+                            "month": "Mar",
+                            "avg_temp_c": 2
+                        },
+                        {
+                            "month": "Apr",
+                            "avg_temp_c": 9
+                        },
+                        {
+                            "month": "May",
+                            "avg_temp_c": 15
+                        },
+                        {
+                            "month": "Jun",
+                            "avg_temp_c": 20
+                        },
+                        {
+                            "month": "Jul",
+                            "avg_temp_c": 23
+                        },
+                        {
+                            "month": "Aug",
+                            "avg_temp_c": 22
+                        },
+                        {
+                            "month": "Sep",
+                            "avg_temp_c": 18
+                        },
+                        {
+                            "uhi_data": {
+                                "intensification_c_min": 6,
+                                "intensification_c_max": 10,
+                                "seasonal_peak": "February"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 54,
+                                "shaded_c": 32
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 28,
+                                "productivity_loss_potential_percent": 25
+                            },
+                            "risk_score": 68,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 23
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 23
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 22
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 16
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 22
+                                }
+                            ]
+                        },
+                        {
+                            "id": "buenos_aires_ar",
+                            "name": "Buenos Aires",
+                            "country": "Argentina",
+                            "coordinates": {
+                                "lat": -34.6037,
+                                "lon": -58.3816
+                            },
+                            "climate_type": "Cfa",
+                            "current_population": 3000000,
+                            "projected_population_2050": 3500000,
+                            "uhi_data": {
+                                "intensification_c_min": 5,
+                                "intensification_c_max": 9,
+                                "seasonal_peak": "January"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 52,
+                                "shaded_c": 30
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 28,
+                                "productivity_loss_potential_percent": 20
+                            },
+                            "risk_score": 62,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 25
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 24
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 22
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 12
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 11
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 24
+                                }
+                            ]
+                        },
+                        {
+                            "id": "london_uk",
+                            "name": "London",
+                            "country": "UK",
+                            "coordinates": {
+                                "lat": 51.5074,
+                                "lon": -0.1278
+                            },
+                            "climate_type": "Cfb",
+                            "current_population": 9000000,
+                            "projected_population_2050": 10000000,
+                            "uhi_data": {
+                                "intensification_c_min": 4,
+                                "intensification_c_max": 9,
+                                "seasonal_peak": "July"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 42,
+                                "shaded_c": 24
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 25,
+                                "productivity_loss_potential_percent": 10
+                            },
+                            "risk_score": 58,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 6
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 8
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 11
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 14
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 16
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 9
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 6
+                                }
+                            ]
+                        },
+                        {
+                            "id": "paris_fr",
+                            "name": "Paris",
+                            "country": "France",
+                            "coordinates": {
+                                "lat": 48.8566,
+                                "lon": 2.3522
+                            },
+                            "climate_type": "Cfb",
+                            "current_population": 2100000,
+                            "projected_population_2050": 2300000,
+                            "uhi_data": {
+                                "intensification_c_min": 5,
+                                "intensification_c_max": 10,
+                                "seasonal_peak": "August"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 45,
+                                "shaded_c": 26
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 26,
+                                "productivity_loss_potential_percent": 15
+                            },
+                            "risk_score": 64,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 6
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 9
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 12
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 16
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 8
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 5
+                                }
+                            ]
+                        },
+                        {
+                            "id": "berlin_de",
+                            "name": "Berlin",
+                            "country": "Germany",
+                            "coordinates": {
+                                "lat": 52.5200,
+                                "lon": 13.4050
+                            },
+                            "climate_type": "Cfb",
+                            "current_population": 3700000,
+                            "projected_population_2050": 4000000,
+                            "uhi_data": {
+                                "intensification_c_min": 4,
+                                "intensification_c_max": 8,
+                                "seasonal_peak": "July"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 40,
+                                "shaded_c": 22
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 25,
+                                "productivity_loss_potential_percent": 10
+                            },
+                            "risk_score": 52,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 1
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 2
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 10
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 10
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": "athens_gr",
+                            "name": "Athens",
+                            "country": "Greece",
+                            "coordinates": {
+                                "lat": 37.9838,
+                                "lon": 23.7275
+                            },
+                            "climate_type": "Csa",
+                            "current_population": 660000,
+                            "projected_population_2050": 700000,
+                            "uhi_data": {
+                                "intensification_c_min": 7,
+                                "intensification_c_max": 12,
+                                "seasonal_peak": "July"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 60,
+                                "shaded_c": 36
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 29,
+                                "productivity_loss_potential_percent": 35
+                            },
+                            "risk_score": 82,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 10
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 11
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 16
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 26
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 24
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 12
+                                }
+                            ]
+                        },
+                        {
+                            "id": "tokyo_jp",
+                            "name": "Tokyo",
+                            "country": "Japan",
+                            "coordinates": {
+                                "lat": 35.6762,
+                                "lon": 139.6503
+                            },
+                            "climate_type": "Cfa",
+                            "current_population": 14000000,
+                            "projected_population_2050": 13500000,
+                            "uhi_data": {
+                                "intensification_c_min": 6,
+                                "intensification_c_max": 11,
+                                "seasonal_peak": "August"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 55,
+                                "shaded_c": 33
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 30,
+                                "productivity_loss_potential_percent": 45
+                            },
+                            "risk_score": 76,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 6
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 9
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 14
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 22
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 26
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 23
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 12
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 8
+                                }
+                            ]
+                        },
+                        {
+                            "id": "beijing_cn",
+                            "name": "Beijing",
+                            "country": "China",
+                            "coordinates": {
+                                "lat": 39.9042,
+                                "lon": 116.4074
+                            },
+                            "climate_type": "Dwa",
+                            "current_population": 21500000,
+                            "projected_population_2050": 25000000,
+                            "uhi_data": {
+                                "intensification_c_min": 8,
+                                "intensification_c_max": 14,
+                                "seasonal_peak": "July"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 58,
+                                "shaded_c": 35
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 30,
+                                "productivity_loss_potential_percent": 40
+                            },
+                            "risk_score": 80,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": -3
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 0
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 7
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 25
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 26
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 14
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 5
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": -1
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bangkok_th",
+                            "name": "Bangkok",
+                            "country": "Thailand",
+                            "coordinates": {
+                                "lat": 13.7563,
+                                "lon": 100.5018
+                            },
+                            "climate_type": "Aw",
+                            "current_population": 10500000,
+                            "projected_population_2050": 15000000,
+                            "uhi_data": {
+                                "intensification_c_min": 7,
+                                "intensification_c_max": 12,
+                                "seasonal_peak": "April"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 62,
+                                "shaded_c": 40
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 32,
+                                "productivity_loss_potential_percent": 60
+                            },
+                            "risk_score": 88,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 31
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 27
+                                }
+                            ]
+                        },
+                        {
+                            "id": "jakarta_id",
+                            "name": "Jakarta",
+                            "country": "Indonesia",
+                            "coordinates": {
+                                "lat": -6.2088,
+                                "lon": 106.8456
+                            },
+                            "climate_type": "Am",
+                            "current_population": 10800000,
+                            "projected_population_2050": 16000000,
+                            "uhi_data": {
+                                "intensification_c_min": 6,
+                                "intensification_c_max": 11,
+                                "seasonal_peak": "October"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 60,
+                                "shaded_c": 38
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 31,
+                                "productivity_loss_potential_percent": 55
+                            },
+                            "risk_score": 86,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 27
+                                }
+                            ]
+                        },
+                        {
+                            "id": "manila_ph",
+                            "name": "Manila",
+                            "country": "Philippines",
+                            "coordinates": {
+                                "lat": 14.5995,
+                                "lon": 120.9842
+                            },
+                            "climate_type": "Aw",
+                            "current_population": 1800000,
+                            "projected_population_2050": 2500000,
+                            "uhi_data": {
+                                "intensification_c_min": 6,
+                                "intensification_c_max": 10,
+                                "seasonal_peak": "May"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 61,
+                                "shaded_c": 39
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 31,
+                                "productivity_loss_potential_percent": 58
+                            },
+                            "risk_score": 85,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 27
+                                }
+                            ]
+                        },
+                        {
+                            "id": "mumbai_in",
+                            "name": "Mumbai",
+                            "country": "India",
+                            "coordinates": {
+                                "lat": 19.0760,
+                                "lon": 72.8777
+                            },
+                            "climate_type": "Aw",
+                            "current_population": 20000000,
+                            "projected_population_2050": 30000000,
+                            "uhi_data": {
+                                "intensification_c_min": 5,
+                                "intensification_c_max": 9,
+                                "seasonal_peak": "May"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 58,
+                                "shaded_c": 36
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 31,
+                                "productivity_loss_potential_percent": 65
+                            },
+                            "risk_score": 89,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 24
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 25
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 30
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 29
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 25
+                                }
+                            ]
+                        },
+                        {
+                            "id": "lagos_ng",
+                            "name": "Lagos",
+                            "country": "Nigeria",
+                            "coordinates": {
+                                "lat": 6.5244,
+                                "lon": 3.3792
+                            },
+                            "climate_type": "Aw",
+                            "current_population": 15000000,
+                            "projected_population_2050": 30000000,
+                            "uhi_data": {
+                                "intensification_c_min": 5,
+                                "intensification_c_max": 10,
+                                "seasonal_peak": "March"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 59,
+                                "shaded_c": 37
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 30,
+                                "productivity_loss_potential_percent": 50
+                            },
+                            "risk_score": 84,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 26
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 25
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 25
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 26
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 27
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 28
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 27
+                                }
+                            ]
+                        },
+                        {
+                            "id": "nairobi_ke",
+                            "name": "Nairobi",
+                            "country": "Kenya",
+                            "coordinates": {
+                                "lat": -1.2921,
+                                "lon": 36.8219
+                            },
+                            "climate_type": "Cfb",
+                            "current_population": 4400000,
+                            "projected_population_2050": 10000000,
+                            "uhi_data": {
+                                "intensification_c_min": 4,
+                                "intensification_c_max": 8,
+                                "seasonal_peak": "February"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 50,
+                                "shaded_c": 30
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 26,
+                                "productivity_loss_potential_percent": 20
+                            },
+                            "risk_score": 60,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 18
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 20
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 19
+                                }
+                            ]
+                        },
+                        {
+                            "id": "melbourne_au",
+                            "name": "Melbourne",
+                            "country": "Australia",
+                            "coordinates": {
+                                "lat": -37.8136,
+                                "lon": 144.9631
+                            },
+                            "climate_type": "Cfb",
+                            "current_population": 5000000,
+                            "projected_population_2050": 8000000,
+                            "uhi_data": {
+                                "intensification_c_min": 5,
+                                "intensification_c_max": 9,
+                                "seasonal_peak": "January"
+                            },
+                            "mrt_data": {
+                                "baseline_unshaded_c": 54,
+                                "shaded_c": 31
+                            },
+                            "wbgt_data": {
+                                "threshold_c": 28,
+                                "productivity_loss_potential_percent": 25
+                            },
+                            "risk_score": 66,
+                            "temperature_curve": [
+                                {
+                                    "month": "Jan",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Feb",
+                                    "avg_temp_c": 21
+                                },
+                                {
+                                    "month": "Mar",
+                                    "avg_temp_c": 19
+                                },
+                                {
+                                    "month": "Apr",
+                                    "avg_temp_c": 16
+                                },
+                                {
+                                    "month": "May",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Jun",
+                                    "avg_temp_c": 11
+                                },
+                                {
+                                    "month": "Jul",
+                                    "avg_temp_c": 10
+                                },
+                                {
+                                    "month": "Aug",
+                                    "avg_temp_c": 11
+                                },
+                                {
+                                    "month": "Sep",
+                                    "avg_temp_c": 13
+                                },
+                                {
+                                    "month": "Oct",
+                                    "avg_temp_c": 15
+                                },
+                                {
+                                    "month": "Nov",
+                                    "avg_temp_c": 17
+                                },
+                                {
+                                    "month": "Dec",
+                                    "avg_temp_c": 19
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -16,14 +16,7 @@
   --primary-foreground: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primary: #ededed;
-    --primary-foreground: #0a0a0a;
-  }
-}
+/* Removed dark mode media query to enforce light mode */
 
 html {
   scroll-behavior: smooth;
