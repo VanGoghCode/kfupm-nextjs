@@ -10,7 +10,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center text-center max-w-3xl">
         <div className="relative z-10 flex flex-col gap-4">
           <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-foreground pb-2">
-            Next.js + Tailwind
+            PlantWise
           </h1>
           <p className="text-lg sm:text-xl text-foreground/60 max-w-lg mx-auto leading-relaxed">
             A premium starting point for your next great idea. Built with the
